@@ -9,7 +9,7 @@ const Card = () => {
     setRate(e.currentTarget.value);
   };
   return (
-    <section className="w-full max-w-md bg-darkBlue mx-auto rounded-3xl px-6 py-5">
+    <section className="w-full max-w-md h-[380px] bg-darkBlue mx-auto rounded-3xl px-6 py-5">
       {Rated? <ThanksCard rate={rate}/> : <Rating setRatingHandler={setRatingHandler} setRated={setRated}/>}
     </section>
   )
