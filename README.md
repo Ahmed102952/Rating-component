@@ -1,4 +1,4 @@
-# Rating Compoenet
+# Rating Component
 
 - made with HTML and ReactJS , TailwindCSS
 
